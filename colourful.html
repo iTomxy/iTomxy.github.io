@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        padding: clamp(24px, 7vw, 88px);
+        background:
+          radial-gradient(circle at 18% 16%, rgba(255, 226, 155, 0.92), transparent 34%),
+          radial-gradient(circle at 84% 20%, rgba(146, 218, 215, 0.86), transparent 35%),
+          radial-gradient(circle at 76% 86%, rgba(221, 163, 210, 0.82), transparent 38%),
+          linear-gradient(145deg, #f09a86 0%, #d7b7dd 48%, #79c7bd 100%);
+      }
+
+      .colour-portrait {
+        display: block;
+        width: min(620px, 82vw, 78vh);
+        height: auto;
+        border: clamp(8px, 1.4vw, 15px) solid rgba(255, 255, 255, 0.68);
+        border-radius: 2px;
+        box-shadow:
+          0 28px 70px rgba(48, 38, 78, 0.24),
+          0 3px 12px rgba(48, 38, 78, 0.18);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="colour-portrait" src="asserts/photo.jpg" alt="Colour portrait of Tianyou Liang">
+  </body>
+</html>
